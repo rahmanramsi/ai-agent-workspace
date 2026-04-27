@@ -1,0 +1,23 @@
+{
+  "$schema": "https://claude.ai/schema/settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(npx skills *)",
+      "Bash(npx skills add *)",
+      "Bash(curl -s *)",
+      "Bash(cat *)",
+      "Bash(ls *)",
+      "Bash(mkdir -p *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(sudo *)",
+      "Bash(chmod 777 *)"
+    ]
+  },
+  "env": {
+    "WP_SITE_URL": "",
+    "WP_USERNAME": "",
+    "WP_APP_PASSWORD": ""
+  }
+}
